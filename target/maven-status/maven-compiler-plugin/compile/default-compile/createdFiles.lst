@@ -1,0 +1,4 @@
+resources\Comm.class
+pageObjects\LoginPage.class
+pageObjects\Home.class
+Practice\Assignment\App.class
