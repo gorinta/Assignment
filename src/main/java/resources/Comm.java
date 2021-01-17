@@ -17,7 +17,7 @@ public class Comm {
 	public   WebDriver initializeDriver() throws IOException
 	{
 		prop = new Properties();
-		FileInputStream fis = new FileInputStream("D:\\JavaGitWorkSpace\\Assignment\\src\\main\\java\\resources\\data.properties");
+		FileInputStream fis = new FileInputStream("C:\\Users\\dell\\git\\Assignment\\src\\main\\java\\resources\\data.properties");
 		
 		prop.load(fis);
 		String bName = prop.getProperty("browser");
